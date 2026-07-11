@@ -595,4 +595,60 @@ h3{
     opacity:1;
     transform:none;
   }
+}/* ---------- Contact Page ---------- */
+
+.contact-page{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.contact-panel{
+    margin-bottom:36px;
+    text-align:center;
+}
+
+.mailing-panel{
+    margin-top:28px;
+    padding:42px;
+    text-align:center;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(15,24,36,.92),
+            rgba(7,11,16,.92)
+        );
+    border:1px solid rgba(111,183,255,.22);
+    box-shadow:
+        0 0 40px rgba(30,78,145,.18),
+        inset 0 0 50px rgba(111,183,255,.03);
+}
+
+.mailing-copy{
+    max-width:620px;
+    margin:18px auto 34px;
+}
+
+.mailing-form-wrap{
+    max-width:620px;
+    margin:0 auto;
+}
+
+.mailing-form-wrap .ml-form-embedContainer{
+    background:transparent !important;
+}
+
+.mailing-form-wrap input{
+    background:#0d1621 !important;
+    color:#edf4fa !important;
+    border:1px solid rgba(111,183,255,.28) !important;
+}
+
+.mailing-form-wrap button{
+    background:#295ea8 !important;
+    border:none !important;
+    transition:.25s;
+}
+
+.mailing-form-wrap button:hover{
+    background:#3d7ad2 !important;
 }
