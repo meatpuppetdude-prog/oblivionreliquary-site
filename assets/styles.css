@@ -140,7 +140,10 @@ body:before{
   position:relative;
   z-index:1;
   animation:none;
-  filter:drop-shadow(0 0 32px rgba(111,183,255,.30));
+  filter:
+    brightness(1.16)
+    saturate(1.16)
+    drop-shadow(0 0 34px rgba(111,183,255,.36));
 }
 
 .sigil-glow-layer,
@@ -157,9 +160,10 @@ body:before{
   height:auto;
   z-index:2;
   filter:
-    brightness(1.08)
-    saturate(1.18)
-    drop-shadow(0 0 4px rgba(70,133,211,.18));
+    brightness(1.42)
+    saturate(1.55)
+    drop-shadow(0 0 6px rgba(111,194,255,.38))
+    drop-shadow(0 0 14px rgba(45,119,221,.24));
 }
 
 .text-glow-layer{
@@ -169,9 +173,10 @@ body:before{
   height:auto;
   z-index:3;
   filter:
-    brightness(1.03)
-    saturate(1.10)
-    drop-shadow(0 0 3px rgba(66,126,198,.12));
+    brightness(1.28)
+    saturate(1.38)
+    drop-shadow(0 0 5px rgba(92,177,243,.28))
+    drop-shadow(0 0 12px rgba(34,104,197,.18));
 }
 
 .hero-actions{
