@@ -156,7 +156,10 @@ body:before{
   width:38%;
   height:auto;
   z-index:2;
-  filter:brightness(.38) saturate(.72);
+  filter:
+    brightness(1.08)
+    saturate(1.18)
+    drop-shadow(0 0 4px rgba(70,133,211,.18));
 }
 
 .text-glow-layer{
@@ -165,7 +168,10 @@ body:before{
   width:90%;
   height:auto;
   z-index:3;
-  filter:brightness(.45) saturate(.75);
+  filter:
+    brightness(1.03)
+    saturate(1.10)
+    drop-shadow(0 0 3px rgba(66,126,198,.12));
 }
 
 .hero-actions{
